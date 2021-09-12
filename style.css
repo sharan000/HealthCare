@@ -29,6 +29,16 @@ h4 {
     line-height: 56px;
     font-weight: 700;
 }
+h3 {
+    font-size: 22px;
+    line-height: 48px;
+    font-weight: 700;        
+}
+h2 {
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 700;
+}
 button {
     width: 200px;
     height: 56px;
@@ -41,6 +51,7 @@ button {
     font-weight: 700;
 }
 nav {
+    /* background: grey; */
     line-height: 50px;
     display: flex;
     align-items: center;
@@ -81,13 +92,16 @@ nav {
             font-weight: 500;
         }
 section {
-    padding: 2% 5% 1% 5%;
+    padding: 5% 5% 2% 5%;
+    background: lightgrey;
 }
     .section1 {
         display: flex;
+        /* background: red; */
     }
         .section1-left {
             width: 75%;
+            /* background: lightgreen; */
             margin-right: 1%;
         }
             .section1-left h6 {
@@ -103,6 +117,8 @@ section {
             width: 100%;
             margin-left: 1%;
             margin-bottom: 5%;
+            /* background: lightblue; */
+
         }
             .section1-right img {
                 max-width: 693px;
@@ -111,6 +127,7 @@ section {
             }
     .section2 {
         text-align: center;
+        /* background: mediumpurple; */
         margin: 0 3%;
     }
         .section2 h5{
@@ -130,6 +147,7 @@ section {
             display: flex;
             width: 100%;
             height: auto;
+            /* background: plum; */
         }
             .column {
                 width: 100%;
@@ -141,7 +159,7 @@ section {
             }
                 .column img {
                     width: 70px;
-                    height: 92px;
+                    height: 90px;
                     padding-bottom: 2%;
                 }
                 .column h4 {
@@ -161,8 +179,10 @@ section {
     .section3 {
         display: flex;
         margin-top: 5%;
+        /* background:yellow; */
     }
         .section3-left {
+                /* background: lightgreen; */
                 width: 100%;
                 margin-left: -1%;
                 margin-bottom: 5%;
@@ -174,6 +194,7 @@ section {
             }
         .section3-right {
             width: 100%;
+            /* background: lightblue; */
             margin-left: 1%;
         }
             .section3-right h5 {
@@ -200,6 +221,7 @@ section {
         .section4-left {
             width: 75%;
             padding-left: 6%;
+            /* background: lightgreen; */
             margin-right: 1%;
         }
             .section4-left h5 {
@@ -216,17 +238,142 @@ section {
                 line-height: 30px;
             }
             .section4-left button {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
                 margin: 2% 24% 5% 10%;
+                padding: 0 8%;
+                background: #ffff;
+                border: 1px solid #458FF6;
+                color: #458FF6;
             }
         .section4-right {
             width: 100%;
             margin-left: 1%;
             margin-bottom: 5%;
+            /* background: lightblue; */
         }
             .section4-right img {
                 max-width: 665px;
                 max-height: 434px;
                 width: 100%;
             }
+    .section5 {
+        margin: 5% 15%;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+    }
+        .section5 h5 {
+            text-align: center;
+            padding: 5% 0 2% 0;
+        }
+        hr {
+            margin: 1% auto;
+        }
+        .sec5-row1 {
+            display: flex;
+            width: 100%;
+            height: auto;
+            /* background: plum; */
+        }
+            .sec5-row1 .column1 {
+                margin: 2% 0 5% 10%;
+            }
+                .sec5-row1 .column1 img {
+                    width: 100px;
+                    height: 100px;
+                    border: 3px solid #ffff;
+                    border-radius: 50%;
+                    transform: rotate(16deg);
+                }
+            .sec5-row1 .column2 {
+                width: 120%;
+                margin: 2% 1%;
+            }
+            .sec5-row1 .column3 {
+                margin: 2% 5% 5% 1%;
+            }
+    .section6 {
+        text-align: center;
+        /* background: mediumpurple; */
+        margin: 0 5%;
+    }
+        .section6 h5{
+            padding: 4% 0 1% 0;
+        }
+        .section6 hr {
+            width: 5%;
+            margin: 1% auto;
+            border: 1px solid black;
+        }
+        .sec6-row1 {
+            display: flex;
+            width: 100%;
+            height: auto;
+            /* background: plum; */
+        }
+            .sec6-row1 .column {
+                width: 100%;
+                background: white;
+                text-align: left;
+                margin: 2% 1%;
+                padding: 0%;
+                border-radius: 20px;        
+            }
+                .sec6-row1 .column img {
+                    width: 100%;
+                    height: auto;
+                    padding-bottom: 2%;
+                    border-radius: 20px 20px 0px 0px;
+                }
+                .sec6-row1 .column h2 {
+                    padding: 1% 0;
+                    padding: 4% 10%;
+                }
+                .sec6-row1 .column p {
+                    padding: 1% 12% 5% 12%;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+    .section6 button {
+            background: #ffff;
+            border: 1px solid #458FF6;
+            color: #458FF6;
+            margin: 4% auto;
+    }
+footer {
+    display: flex;
+    padding: 5% 10%;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #ffff;
+}
+    .footer-column1 {
+        width: 100%;
+        padding: 0 5%;
+    }
+        footer figure {
+            width: 100%;
+        }
+            footer figure .logo {
+                width: 45px;
+                height: auto;
+                background: #ffff;
+                color: #5A98F2;
+            }
+            footer figure .logo-name {
+                width: auto;
+                padding: 2% 2%;
+            }
+    .footer-column {
+        width: 40%;
+        padding: 2% 2%;
+    }
+    footer div {
+        padding: 2% 0;
+    }
+
+        
+            
+
 
         
