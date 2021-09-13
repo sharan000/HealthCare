@@ -589,6 +589,11 @@ footer {
         justify-content: start;
         align-items: center;
     }
+        footer figure {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .footer-column {
             display: flex;
             flex-flow: column;
