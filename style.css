@@ -410,9 +410,9 @@ footer {
 /* media width 900px*/
 @media (max-width: 900px) {
     nav {
-        margin-top: 5%
         display: flex;
         flex-flow: column;
+        margin-top: 5%;
     }
     nav figure, nav .nav-menu {
         display: flex;
