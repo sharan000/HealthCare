@@ -410,6 +410,7 @@ footer {
 /* media width 900px*/
 @media (max-width: 900px) {
     nav {
+        margin-top: 5%
         display: flex;
         flex-flow: column;
     }
@@ -423,7 +424,7 @@ footer {
 @media (max-width: 800px) {
     section {
         padding: 0;
-        margin: 10% 1%;
+        margin: 5% 1%;
     }
     .section1 {
         display: flex;
