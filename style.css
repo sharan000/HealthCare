@@ -423,7 +423,7 @@ footer {
 @media (max-width: 800px) {
     section {
         padding: 0;
-        margin: 5% 1%;
+        margin: 10% 1%;
     }
     .section1 {
         display: flex;
