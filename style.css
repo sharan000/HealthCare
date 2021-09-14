@@ -456,8 +456,8 @@ footer {
             margin: 2% 0;
             display: flex;
             justify-content: center;
+            text-align: center;
             flex-flow: column;
-            align-items: center;
             width: 100%;
         }
             .section1-left h6 {
@@ -606,7 +606,9 @@ footer {
                 padding: 2% 10% 5% 10%;
             }
 }
-@media (max-width: 692px) {
+
+/* media width 710 */
+@media (max-width: 710px) {
     nav .nav-menu {
         flex-flow: wrap;
     }
