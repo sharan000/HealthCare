@@ -467,6 +467,9 @@ footer {
             .section1-left p {
                 padding: 2% 0;
             }
+            .section1-left button {
+                margin: auto;
+            }
     .section2 {
         display: flex;
         flex-flow: column;
