@@ -487,6 +487,9 @@ footer {
             margin: 5% 0;
             padding: 5% 1%;
         }
+        .column:hover {
+            transform: scale(1.05);
+        }
         .sec2-row1, .sec2-row2 {
             display: flex;
             flex-wrap: wrap;
@@ -613,6 +616,9 @@ footer {
                 text-align: start;
                 padding: 2% 10% 5% 10%;
             }
+        .section6 .column:hover {
+            transform: scale(1.03);
+        }
 }
 
 /* media width 710 */
