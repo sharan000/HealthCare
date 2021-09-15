@@ -620,18 +620,24 @@ footer {
     nav .nav-menu {
         flex-flow: wrap;
     }
-    .section1-right img {
-        width: 80%;
-        height: auto;
-    }
-    .section3-left img {
-        width: 80%;
-        height: auto;
-    }
-    .section4-right img {
-        width: 80%;
-        height: auto;
-    }
+        .section1-right img {
+            width: 80%;
+            height: auto;
+        }
+        .column:hover {
+            transform: scale(1.05);
+        }
+        .section3-left img {
+            width: 80%;
+            height: auto;
+        }
+        .section4-right img {
+            width: 80%;
+            height: auto;
+        }
+        .section6 .column:hover {
+            transform: scale(1.03);
+        }
     footer {
         display: flex;
         flex-flow: column;
